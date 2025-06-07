@@ -14,15 +14,6 @@ Or Express Edition (lightweight, also free)
 
 Run the installer (SQL2019-SSEI-Dev.exe or similar).
 
-Choose Basic installation.
-
-Accept license terms, and click Install.
-
-Wait for installation to complete.
-
-Note the Instance Name, usually:
-
-MSSQLSERVER (default) or SQLEXPRESS (for Express)
 
 ### Step 2: Install SQL Server Management Studio (SSMS)
 Go to the SSMS download page:
@@ -33,12 +24,6 @@ Click Download SSMS.
 Install SSMS by running the downloaded .exe file.
 
 After installation, open SSMS and connect to your SQL Server instance:
-
-Server type: Database Engine
-
-Server name: localhost or .\SQLEXPRESS (based on your install)
-
-Authentication: Windows Authentication (default)
 
 ### Step 3: Download the AdventureWorks Sample Database (.bak)
 Go to GitHub Releases page:
