@@ -1,8 +1,8 @@
 # SQL Solutions for Assignment - Level A Task
 
 
-### Step-by-Step Guide: Install SQL Server + SSMS + AdventureWorks
-# Step 1: Install SQL Server
+## Step-by-Step Guide: Install SQL Server + SSMS + AdventureWorks
+### Step 1: Install SQL Server
 ✅ Go to the official download page:
 🔗 https://www.microsoft.com/en-us/sql-server/sql-server-downloads
 
@@ -24,7 +24,7 @@ Note the Instance Name, usually:
 
 MSSQLSERVER (default) or SQLEXPRESS (for Express)
 
-# Step 2: Install SQL Server Management Studio (SSMS)
+### Step 2: Install SQL Server Management Studio (SSMS)
 Go to the SSMS download page:
 🔗 https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms
 
@@ -40,7 +40,7 @@ Server name: localhost or .\SQLEXPRESS (based on your install)
 
 Authentication: Windows Authentication (default)
 
-# Step 3: Download the AdventureWorks Sample Database (.bak)
+### Step 3: Download the AdventureWorks Sample Database (.bak)
 Go to GitHub Releases page:
 🔗 https://github.com/microsoft/sql-server-samples/releases/tag/adventureworks
 
@@ -51,7 +51,7 @@ Scroll and download the file:
 Save it to a folder like:
 C:\AdventureWorks\
 
-# Step 4: Restore the AdventureWorks Database in SSMS
+### Step 4: Restore the AdventureWorks Database in SSMS
 Open SSMS and connect to SQL Server.
 
 In Object Explorer, right-click on "Databases" > Select Restore Database...
