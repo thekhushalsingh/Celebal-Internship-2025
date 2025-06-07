@@ -19,9 +19,9 @@ This repository serves as a reflection of the hands-on experience and skills I g
 ## Contact Information
 
 - **Name**: Khushal
-- **User ID **: CT_CSI_SQ_5459
+- **User ID**: CT_CSI_SQ_5459
 - **Email**: khushalsingh9445@gmail.com  
-- **LinkedIn**: [linkedin.com/in/khushal](https://linkedin.com/in/thekhushalsingh)
+- **LinkedIn**: [thekhushalsingh](https://linkedin.com/in/thekhushalsingh)
 
 
 ---
