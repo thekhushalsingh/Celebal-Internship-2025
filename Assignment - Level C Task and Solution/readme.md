@@ -309,7 +309,7 @@ INSERT INTO TargetTable (KeyColumn, Column1, Column2) VALUES
 ```
 ---
 ## Some Sample Screenshots
-![image]()
+![image](https://github.com/thekhushalsingh/Celebal-Internship-2025/blob/main/Assignment%20-%20Level%20C%20Task%20and%20Solution/Screenshot%202025-06-21%20123540.png)
 
 ![image]()
 
