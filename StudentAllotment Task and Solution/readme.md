@@ -8,7 +8,6 @@ This project implements an elective allocation system using SQL. The system allo
 - [Setup Instructions](#setup-instructions)
 - [Running the Allocation Procedure](#running-the-allocation-procedure)
 - [Verification](#verification)
-- [Contact](#contact)
 
 ## Database Schema
 
@@ -30,7 +29,7 @@ The system uses the following tables:
 2. **Create the Stored Procedure**
 
    To create the stored procedure, please refer to the SQL script available at the following link:  
-   [Student Allotment SQL Solution]()
+   [Student Allotment SQL Solution](https://github.com/thekhushalsingh/Celebal-Internship-2025/blob/main/StudentAllotment%20Task%20and%20Solution/Student%20Allotment%20Solution.sql)
 
 ## Running the Allocation Procedure
 
