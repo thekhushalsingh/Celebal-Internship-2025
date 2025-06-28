@@ -25,7 +25,7 @@ The system uses the following tables:
 1. **Create and Populate Required Tables**
 
    To create and populate the required tables, please refer to the SQL script available at the following link:  
-   [Student Allotment SQL Table]()
+   [Student Allotment SQL Table](https://github.com/thekhushalsingh/Celebal-Internship-2025/blob/main/StudentAllotment%20Task%20and%20Solution/Student%20Allotment%20Table.sql)
 
 2. **Create the Stored Procedure**
 
