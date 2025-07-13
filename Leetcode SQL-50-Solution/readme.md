@@ -4,7 +4,7 @@ Welcome to the repository for the solutions to the top 50 SQL questions on LeetC
 
 [My Leetcode](https://leetcode.com/u/thekhushalsingh/) 
 
-![image]()
+![image](https://github.com/thekhushalsingh/Celebal-Internship-2025/blob/main/Leetcode%20SQL-50-Solution/Screenshot.png)
 
 
 
