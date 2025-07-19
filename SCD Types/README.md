@@ -475,4 +475,4 @@ To see the SCD logic in action, you can simulate a change in the source data and
 
 3.  **Observe the Result**: Query the dimension table again. For SCD Type 2, you will now see a new, current row for Person 2 with the updated value, and the old row will be marked as historical.
 4.  Screenshot
-   ![image](https://github.com/thekhushalsingh/Celebal-Internship-2025/blob/main/SCD%20Types/Screenshot/Screenshot.png)
+5.  [image](https://github.com/thekhushalsingh/Celebal-Internship-2025/blob/main/SCD%20Types/Screenshot/Screenshot.png)
