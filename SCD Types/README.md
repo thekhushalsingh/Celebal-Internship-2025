@@ -19,7 +19,7 @@ This project includes stored procedures for the following SCD types:
 * **SCD Type 6**: Combined Approach (1 + 2 + 3)
 
 ---
-SCD Type 0: The Passive Method
+### SCD Type 0: The Passive Method
 Concept: The dimension attributes never change. The data is loaded once and is never updated. This is suitable for attributes that are guaranteed to be static, like a date of birth.
 
 Stored Procedure for SCD Type 0
@@ -44,7 +44,7 @@ BEGIN
 END;
 GO
 
-SCD Type 1: Overwrite
+### SCD Type 1: Overwrite
 Concept: When a change occurs in a source attribute, the corresponding attribute in the dimension table is overwritten with the new value. This method does not keep any history of old values.
 
 Stored Procedure for SCD Type 1
@@ -68,7 +68,7 @@ BEGIN
 END;
 GO
 
-SCD Type 2: Add a New Row
+### SCD Type 2: Add a New Row
 Concept: This is the most common method for tracking historical data. When an attribute changes, the existing record in the dimension is marked as "expired" (e.g., by setting an EndDate and IsCurrent flag), and a new record is inserted with the updated attribute value. This requires a surrogate key to uniquely identify each version of a dimension member.
 
 Stored Procedure for SCD Type 2
@@ -131,7 +131,7 @@ BEGIN
 END;
 GO
 
-SCD Type 3: Add a New Attribute
+### SCD Type 3: Add a New Attribute
 Concept: This method tracks limited history by adding a new column to store the "previous" value of an attribute. When the attribute changes, the current value is moved to the "previous" column, and the "current" column is updated with the new value.
 
 Stored Procedure for SCD Type 3
@@ -156,7 +156,7 @@ BEGIN
 END;
 GO
 
-SCD Type 4: Use a History Table (Corrected)
+### SCD Type 4: Use a History Table (Corrected)
 Concept: This approach uses two tables: a main dimension table that always stores the most current data (like SCD Type 1), and a separate history table that tracks all historical changes (similar to a log). The two tables are linked by the business key.
 
 Stored Procedure for SCD Type 4
@@ -229,7 +229,7 @@ BEGIN
 END;
 GO
 
-SCD Type 6: Combined Approach (1+2+3) (Corrected)
+### SCD Type 6: Combined Approach (1+2+3) (Corrected)
 Concept: SCD Type 6 builds on the other types to provide a powerful hybrid solution. It combines:
 
 SCD Type 1: Overwriting a Current attribute for easy reporting on the latest state.
