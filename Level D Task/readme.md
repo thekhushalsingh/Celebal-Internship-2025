@@ -40,9 +40,10 @@ CREATE TABLE TimeDimension (
     FiscalYear INT,
     [Fiscal Year/Period] VARCHAR(10)
 );
+```
 
 ### 2. CREATE PROCEDURE PopulateTimeDimension
-
+```sql
 CREATE PROCEDURE PopulateTimeDimension
     @InputDate DATE
 AS
@@ -106,3 +107,16 @@ BEGIN
     FROM DateRange
     OPTION (MAXRECURSION 366);
 END
+```
+### 3. Execute the Procedure
+Pass any date of the year you want to populate:
+```sql
+EXEC PopulateTimeDimension @InputDate = '2020-07-14';
+This will generate and insert all 365/366 days for the year 2020.
+```
+🧪 Sample Query
+```sql
+SELECT * FROM TimeDimension ORDER BY Date;
+```
+### 4. Screenshot
+![image]()
